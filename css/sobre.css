@@ -44,3 +44,45 @@ main > section > figure > img {
 main > section > figcaption {
     margin-top: 10px;
 }
+
+p#horario1 {
+    margin-left: 160px;
+    margin-top: -39px;
+    font-size: 0.8em;
+    
+}
+
+p#horario2 {
+    margin-left: 80px;
+    margin-top: -39px;
+    font-size: 0.8em;
+}
+
+footer > div > ul {
+    list-style-type: none;
+    padding-top: 8px;
+    font-style: italic;
+}
+
+div.realocar {
+    float: right;
+    margin-top: -149px;
+}
+
+footer > div > dl > dt {
+    padding: 5px;
+}
+
+dt#pessoaju {
+    padding-top: 10px;
+}
+
+dd#link1 {
+    margin-left: 110px;
+    margin-top: -25px;
+}
+
+dd#link2 {
+    margin-left: 125px;
+    margin-top: -25px;
+}
