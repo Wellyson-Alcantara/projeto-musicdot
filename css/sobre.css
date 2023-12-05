@@ -71,6 +71,7 @@ div.realocar {
 
 footer > div > dl > dt {
     padding: 5px;
+    margin-left: 30px;
 }
 
 dt#pessoaju {
@@ -78,11 +79,11 @@ dt#pessoaju {
 }
 
 dd#link1 {
-    margin-left: 110px;
+    margin-left: 150px;
     margin-top: -25px;
 }
 
 dd#link2 {
-    margin-left: 125px;
+    margin-left: 168px;
     margin-top: -25px;
 }
