@@ -27,6 +27,8 @@ main > section > figure {
     border: 1px solid lightgrey;
 }
 
+/* Aqui são as configurações de imagens */
+
 main > section > figcaption {
     margin-top: 10px;
 }
@@ -45,6 +47,8 @@ figure.familia-tupfeln {
 main > section > figure > img {
     width: 100%;
 }
+
+/* Apartir daqui é o rodapé */
 
 footer > div > ul {
     list-style-type: none;
