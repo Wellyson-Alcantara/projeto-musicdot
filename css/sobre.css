@@ -46,45 +46,34 @@ main > section > figure > img {
     width: 100%;
 }
 
-p#horario1 {
-    margin-left: 160px;
-    margin-top: -39px;
-    font-size: 0.8em;
-    
-}
-
-p#horario2 {
-    margin-left: 80px;
-    margin-top: -39px;
-    font-size: 0.8em;
-}
-
 footer > div > ul {
     list-style-type: none;
-    padding-top: 8px;
     font-style: italic;
 }
 
-div.realocar {
-    float: right;
-    margin-top: -149px;
+.contato_subtitulo {
+    display: inline;
 }
 
-footer > div > dl > dt {
-    padding: 5px;
-    margin-left: 30px;
+.contato_seçao {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
 }
 
-dt#pessoaju {
-    padding-top: 10px;
+.contato_seçao--telefone {
+    margin-left: 32px;
 }
 
-dd#link1 {
-    margin-left: 148px;
-    margin-top: -25px;
+.contato_info {
+    margin: 16px 0 24px;
+    padding-left: 32px;
 }
 
-dd#link2 {
-    margin-left: 160px;
-    margin-top: -25px;
+.contato_info-titulo, .contato_info-descriçao {
+    display: inline;
+}
+
+.contato_info-descriçao {
+    margin-left: 10px;
 }
