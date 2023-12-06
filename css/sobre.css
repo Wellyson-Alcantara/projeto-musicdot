@@ -12,6 +12,7 @@ body {
 .titulo {
     background-color: #E1EDF2;
     padding: 10px;
+    font-size: 32px;
 }
 
 .subtitulo {
@@ -24,6 +25,10 @@ main > section > figure {
     text-align: center;
     background-color: whitesmoke;
     border: 1px solid lightgrey;
+}
+
+main > section > figcaption {
+    margin-top: 10px;
 }
 
 figure.matriz-musicdot {
@@ -39,10 +44,6 @@ figure.familia-tupfeln {
 
 main > section > figure > img {
     width: 100%;
-}
-
-main > section > figcaption {
-    margin-top: 10px;
 }
 
 p#horario1 {
@@ -79,11 +80,11 @@ dt#pessoaju {
 }
 
 dd#link1 {
-    margin-left: 150px;
+    margin-left: 148px;
     margin-top: -25px;
 }
 
 dd#link2 {
-    margin-left: 168px;
+    margin-left: 160px;
     margin-top: -25px;
 }
