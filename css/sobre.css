@@ -50,7 +50,7 @@ main > section > figure > img {
 
 /* Apartir daqui é o rodapé */
 
-footer > div > ul {
+main > section > div > ul {
     list-style-type: none;
     font-style: italic;
 }
@@ -80,4 +80,18 @@ footer > div > ul {
 
 .contato_info-descriçao {
     margin-left: 10px;
+}
+
+.rodape {
+    padding: 1.75em 0;
+    font-size: 1.1rem;
+}
+
+.rodape_logo {
+    width: 6em;
+}
+
+.rodape_copyright {
+    display: inline;
+    margin-left: 1em;
 }
