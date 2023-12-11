@@ -26,13 +26,13 @@
 @media (max-width: 446px) {
     .contato_subtitulo {
         display: block;
-        margin-bottom: 0;
+        margin-bottom: 0.5em;
     }
 
     .contato_info {
         padding-left: 5px;
         font-size: .92em;
-        border-left: 2px solid lightgray;
+        border-left: 1px solid lightgray;
     }
 
     .rodape {
@@ -41,6 +41,11 @@
 }
 
 @media (max-width: 342px) {
+    .contato_info-titulo {
+        display: block;
+        margin-bottom: 0.5em;
+    }
+
     .contato_info-descriçao {
         display: block;
         margin-left: 1em;
