@@ -4,9 +4,12 @@ body {
     font-family: "Helvetica", "Lucida Grande", sans-serif;
     color: #3D3D3D;
     text-align: justify;
-    width: 940px;
+    width: 80%;
+    max-width: 940px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .titulo {
@@ -20,6 +23,8 @@ body {
 }
 
 main > section > figure {
+    max-width: 100%;
+    box-sizing: border-box;
     margin: 30px;
     padding: 15px;
     text-align: center;
@@ -48,11 +53,20 @@ main > section > figure > img {
     width: 100%;
 }
 
-/* Apartir daqui é o rodapé */
-
 main > section > div > ul {
     list-style-type: none;
     font-style: italic;
+}
+
+main > section > div > p {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+}
+
+main > section > div > p {
+    display: inline;
+    margin-right: 10px;
 }
 
 .contato_subtitulo {
@@ -81,6 +95,8 @@ main > section > div > ul {
 .contato_info-descriçao {
     margin-left: 10px;
 }
+
+/* Apartir daqui é o rodapé */
 
 .rodape {
     padding: 1.75em 0;
