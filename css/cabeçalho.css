@@ -66,6 +66,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing:0.23em;
+
     color: #fff;
     background-color: #2D5377;
 }
@@ -76,6 +77,10 @@ body {
 }
 
 .cabeçalho_menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
     background-color: #272B3A87;
 }
 
