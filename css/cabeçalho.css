@@ -91,9 +91,19 @@ body {
 .cabeçalho_item-menu, a {
     display: inline-block;
     padding: 1.86em 1.42em;
-}
-
-a {
     color: inherit;
     text-decoration: inherit;
+}
+
+@media (min-width: 640px) {
+    .cabeçalho {
+        padding: 0 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.cabeçalho_menu {
+    background-color: transparent;
 }
