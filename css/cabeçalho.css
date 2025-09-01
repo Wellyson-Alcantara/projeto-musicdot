@@ -102,8 +102,7 @@ body {
         justify-content: space-between;
         align-items: center;
     }
-}
-
-.cabeçalho_menu {
+    .cabeçalho_menu {
     background-color: transparent;
+    }
 }
