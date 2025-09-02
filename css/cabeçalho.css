@@ -127,6 +127,7 @@ body {
 
 @media (min-width: 1066px) {
     .cabeçalho {
-        padding-left: ;
+        padding-left: calc((100% - 960px) / 2);
+        padding-right: calc((100% - 960px) / 2);
     }
 }
