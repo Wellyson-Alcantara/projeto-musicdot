@@ -1,17 +1,31 @@
 @charset "UTF-8";
 
 .rodape {
+    padding: 2rem 5%;
+
     text-align: center;
     font-size: 0.7rem;
 }
 
 .rodape_logo {
-    width: 11.25em;
+    width: 15.25em;
+    margin-bottom: 1.5em;
 }
 
 .rodape_lista-midias-sociais {
     display: flex;
     justify-content: center;
+    gap: 0.3rem;
+    margin-right: 3rem;
+}
+
+.rodape_infos-empresa {
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+.rodape_seção {
+    
 }
 
 .rodape_item-midias-sociais {
@@ -19,7 +33,7 @@
 }
 
 .rodape_item-midias-sociais img {
-    width: 100%;
+    width: 2.2rem;
 }
 
 .rodape_titulo {
@@ -30,4 +44,5 @@
 
 .rodape_item-lista {
     font-weight: 500;
+    font-size: 17px;
 }
