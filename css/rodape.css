@@ -34,9 +34,8 @@
 
 .rodape_titulo {
     margin-bottom: 1em;
-    margin-top: 2rem;
 
-    font-size: 1.45rem;
+    font-size: 1.45em;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -44,7 +43,7 @@
 .rodape_item-lista {
     font-weight: 500;
     font-size: 1.08rem;
-    padding: 0.45em 0.56em;
+    margin: 0.625em 0;
 }
 
 .rodape_item-lista a {
@@ -105,12 +104,11 @@
     }
 
     .rodape_titulo {
-        font-size: 1.5em;
-        margin-left: -0.7rem;
+        font-size: 1.3em;
     }
 
     .rodape_lista-midias-sociais {
-        justify-content: left;
+        justify-content: start;
     }
 
     .rodape_seção {
