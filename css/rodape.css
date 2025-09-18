@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 .rodape {
-    padding: 2rem 5%;
+    padding-top: 2em;
+    padding-bottom: 2em;
 
     text-align: center;
     font-size: 0.9rem;
@@ -21,6 +22,7 @@
     display: flex;
     justify-content: center;
     gap: 0.6rem;
+    margin-top: 1em;
 }
 
 .rodape_item-midias-sociais {
@@ -42,10 +44,12 @@
 .rodape_item-lista {
     font-weight: 500;
     font-size: 1.08rem;
+    padding: 0.45em 0.56em;
 }
 
-.rodape_item-lista, a {
-    margin: -1.1rem;
+.rodape_item-lista a {
+    text-decoration: inherit;
+    color: inherit;
 }
 
 @media (max-width: 640px) {
@@ -118,40 +122,3 @@
     }
 }
 
-.form-newsletter {
-    display: flex;
-   
-    overflow: hidden;
-    box-sizing: border-box;
-    width: 100%;
-    border-radius: 7px;
-    border: 2px solid #e93d50;
-    background-color: #e93d50;
-}
-
-.form-newsletter_label {
-    display: flex;
-    justify-content: center;
-    position: absolute;    
-    left: -10000px;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-}
-
-.form-newsletter_campo {
-    padding: .9rem .4rem;
-    flex-grow: 1;
-    border: none;
-}
-
-.form-newsletter_botão {
-    flex-grow: 1;
-    border: none;
-
-    text-transform: uppercase;
-    font-weight: 600;
-
-    background-color: #e93d50;
-    color: #fff;
-}
